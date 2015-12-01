@@ -1,0 +1,30 @@
+{
+    "name" : "jimmymadrigal/mobilebundle",
+    "description" : "js+css+less for base mobile app using require, backbone and bootstrap, with some basic views",
+    "type" : "mobile-libraries",
+    "authors" : [{
+        "name" : "Jimmy Madrigal",
+        "email" : "jimmymadrigal@gmail.com"
+    }],
+    "keywords" : [
+        "base js css less requirejs backbone bootstrap"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "JimmyMadrigal\\MobileBundle" : ""
+        }
+    },
+    "target-dir" : "JimmyMadrigal/MobileBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "1.0x-dev"
+        }
+    }
+}
