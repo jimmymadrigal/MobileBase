@@ -1,5 +1,5 @@
 {
-    "name" : "jimmymadrigal/mobilebundle",
+    "name" : "jimmymadrigal/mobilebase",
     "description" : "js+css+less for base mobile app using require, backbone and bootstrap, with some basic views",
     "type" : "mobile-libraries",
     "authors" : [{
@@ -16,10 +16,10 @@
     },
     "autoload" : {
         "psr-0" : {
-            "JimmyMadrigal\\MobileBundle" : ""
+            "JimmyMadrigal\\MobileBase" : ""
         }
     },
-    "target-dir" : "JimmyMadrigal/MobileBundle",
+    "target-dir" : "JimmyMadrigal/MobileBase",
     "repositories" : [{
     }],
     "extra" : {
