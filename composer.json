@@ -19,7 +19,7 @@
             "JimmyMadrigal\\MobileBase" : ""
         }
     },
-    "target-dir" : "JimmyMadrigal/MobileBase",
+    "target-dir" : "",
     "repositories" : [{
     }],
     "extra" : {
