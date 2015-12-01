@@ -15,8 +15,8 @@
     "require" : {
     },
     "autoload" : {
-        "psr-0" : {
-            "JimmyMadrigal\\MobileBase" : ""
+        "psr-4" : {
+            "JimmyMadrigal\\MobileBase\\" : ""
         }
     },
     "target-dir" : "",
