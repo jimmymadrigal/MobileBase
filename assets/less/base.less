@@ -1,5 +1,4 @@
-/*Replace variable @resources-path*/
-@resources-path: "/bundles/jimmymadrigalbase/assets";
+/*Expects variable @resources-path*/
 
 @import "@{resources-path}/less/bootstrap/bootstrap";
 @import "@{resources-path}/css/bootstrap/datepicker.css";
@@ -10,6 +9,13 @@
 
 @import "@{resources-path}/less/font-awesome/font-awesome";
 
+html, body, page {
+    height: 100%;
+    min-height: 100%;
+}
+
 .datepicker {
     z-index: 9000 !important;
 }
+@import "@{resources-path}/less/base/disable";
+@import "@{resources-path}/less/base/multilanguage";
